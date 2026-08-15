@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { logonew } from '../../assets/images';
 
 const Navbar: React.FC = () => {

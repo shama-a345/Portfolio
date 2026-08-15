@@ -1,5 +1,3 @@
-import React from 'react';
-// 1. Fixed import path to point to contactData instead of self-importing ./Contact
 import { contactDetails, type ContactItem } from './contactpage';
 import { motion } from 'framer-motion';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { logonew } from '../../assets/images';
 import { navLinks, socialLinks, type NavLink, type SocialLink } from './footerpage';
 

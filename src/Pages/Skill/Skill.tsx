@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { categories, skillsData, type Category } from './skillpage';
 import { motion } from 'framer-motion';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 // Import both the data and the type from the same file
 import { experienceData, type ExperienceItem } from './experiencespage';
 import { motion } from 'framer-motion';
