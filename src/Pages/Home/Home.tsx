@@ -36,7 +36,7 @@ const Home = () => {
           <img className="absolute inset-0 w-full h-full object-cover" src={bgimage} alt="Background" />
           <div className="absolute inset-0" />
           
-          <div className="relative z-10 w-full flex flex-col lg:flex-row justify-between items-center gap-10 p-6 sm:p-10 lg:p-16">
+          <div className="relative z-10 w-full flex flex-col-reverse lg:flex-row justify-between items-center gap-10 p-6 sm:p-10 lg:p-16">
             <div className="flex flex-col items-start max-w-2xl">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">Shama Shrestha</h1>
               <p className="text-green-300 text-lg sm:text-xl font-medium mt-1">Junior Developer</p>
