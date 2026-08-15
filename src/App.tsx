@@ -1,4 +1,3 @@
-import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { About, Contact, Experiences, Footer, Home, Navbar, Projects, Skill } from './Pages'
 
