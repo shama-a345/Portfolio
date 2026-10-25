@@ -3,6 +3,7 @@ export interface ProjectItem {
   image: string;
   description: string;
   technologies: string[];
+  link: string;
 }
 
 import { ekata, prescripto, restro, starter } from '../../assets/images';
@@ -14,6 +15,7 @@ export const projectsData: ProjectItem[] = [
     description:
       'An platform where waiter, chef and admin can order, manages and access the order items and see total sales of the day. Also get the status of the ordered items by all the three actors. This system help the resturant in faster order management. Also save data in the database (MSQL), can be managed from filament dashboard.',
     technologies: ['React', 'Typescript', 'Laravel', 'Filament', 'MySQL'],
+    link: 'https://resturant-web-xq2u.onrender.com',
   },
   {
     id: 2,
@@ -21,12 +23,14 @@ export const projectsData: ProjectItem[] = [
     description:
       'Website where patient can book an appointment doctors online , can see which doctor are avaliable in related category.This system help customer to easily take appoinments.',
     technologies: ['React', 'Typescript', 'TailwindCSS'],
+    link: 'https://health-project-8m2j.onrender.com',
   },
   {
     id: 3,
     image: starter,
     description: 'This is the demo project of starter landing page',
     technologies: ['React', 'Typescript', 'TailwindCSS'],
+    link: 'https://startup-landing-page-bbto.onrender.com',
   },
   {
     id: 4,
@@ -34,5 +38,6 @@ export const projectsData: ProjectItem[] = [
     description:
       'This is consultancy project which was made dynamic using filament and laravel.',
     technologies: ['Filament', 'Laravel'],
+    link: '',
   },
 ];

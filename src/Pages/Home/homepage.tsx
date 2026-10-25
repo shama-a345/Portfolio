@@ -23,6 +23,7 @@ export interface Project {
   description: string;
   image: string;
   tags: string[];
+  link: string;
 }
 
 export interface Experience {
@@ -164,24 +165,28 @@ export const PROJECTS_DATA: Project[] = [
     description: "An platform where waiter, chef and admin can order, manages and access the order items and see total sales of the day. Also get the status of the ordered items by all the three actors. This system help the resturant in faster order management. Also save data in the database (MSQL), can be managed from filament dashboard.",
     image: restro,
     tags: ['React', 'Typescript', 'Laravel', 'Filament', 'MySQL'],
+    link: 'https://resturant-web-xq2u.onrender.com',
   },
   {
     id: 2,
     description: "Website where patient can book an appointment doctors online , can see which doctor are avaliable in related category.This system help customer to easily take appoinments.",
     image: prescripto,
     tags: ['React', 'Typescript', 'TailwindCSS'],
+    link: 'https://health-project-8m2j.onrender.com',
   },
   {
     id: 3,
     description: "This is the demo project of starter landing page",
     image: starter,
     tags: ['React', 'Typescript', 'TailwindCSS'],
+    link: 'https://startup-landing-page-bbto.onrender.com',
   },
   {
     id: 4,
     description: "This is consultancy project which was made dynamic using filament and laravel.",
     image: ekata,
     tags: ['Filament', 'Laravel'],
+    link: '',
   },
 ];
 

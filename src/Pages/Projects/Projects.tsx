@@ -26,11 +26,13 @@ const Projects: React.FC = () => {
                         >
                             {/* Image Section */}
                             <div className='overflow-hidden h-52 sm:h-56 w-full shrink-0'>
-                                <img
-                                    src={project.image}
-                                    className='w-full h-full object-cover transition-transform duration-700 hover:scale-110 ease-in-out'
-                                    alt='project screenshot'
-                                />
+                                <a href={project.link} target='_blank' rel='noopener noreferrer'>
+                                    <img
+                                        src={project.image}
+                                        className='w-full h-full object-cover transition-transform duration-700 hover:scale-110 ease-in-out'
+                                        alt='project screenshot'
+                                    />
+                                </a>
                             </div>
 
                             {/* Description Section */}
