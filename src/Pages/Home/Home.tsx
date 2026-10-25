@@ -135,13 +135,21 @@ const Home = () => {
             {PROJECTS_DATA.map((project) => (
               <div key={project.id} className="flex flex-col justify-between border border-gray-800 w-full rounded-lg overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_25px_rgba(200,200,200,0.8)] ease-in-out duration-700 bg-slate-900/40">
                 <div className="overflow-hidden h-52 sm:h-56">
-                 <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    <img
-                      src={project.image}
-                      className="w-full h-full object-cover transition-transform duration-700 hover:scale-110 ease-in-out"
-                      alt="Project Thumbnail"
-                    />
-                  </a>
+                 {project.link ? (
+                                <a href={project.link} target='_blank' rel='noopener noreferrer'>
+                                    <img
+                                        src={project.image}
+                                        className='w-full h-full object-cover transition-transform duration-700 hover:scale-110 ease-in-out'
+                                        alt='Project Thumbnail'
+                                    />
+                                </a>
+                            ) : (
+                                <img
+                                    src={project.image}
+                                    className='w-full h-full object-cover transition-transform duration-700 hover:scale-110 ease-in-out'
+                                    alt='Project Thumbnail'
+                                />
+                            )}
                 </div>
                 <div className="p-4 sm:p-5 flex flex-col justify-between flex-1">
                   <p className="text-sm sm:text-base text-justify text-slate-300 leading-relaxed">{project.description}</p>
